@@ -1,0 +1,13 @@
+.sushi {color:red; background-color: teal}
+
+.beef {color: yellow; background-color: teal}
+
+.chicken {color:blue; background-color: teal}
+
+p {color: black}
+
+.container1 {width: 300px; margin: 20px; background-color:tomato;border: 1px solid green; padding: 20px;}
+
+.container2 {width: 300px; margin: 20px; background-color:tomato;border: 1px solid black; padding: 20px;}
+
+.container3 {width: 300px; margin: 20px; background-color:tomato; border: 1px solid blue; padding: 20px;}
