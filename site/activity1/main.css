@@ -6,8 +6,53 @@
 
 p {color: black}
 
-.container1 {width: 300px; margin: 20px; background-color:tomato;border: 1px solid green; padding: 20px;}
+body {background: orange}
 
-.container2 {width: 300px; margin: 20px; background-color:tomato;border: 1px solid black; padding: 20px;}
+h1 {color:red}
 
-.container3 {width: 300px; margin: 20px; background-color:tomato; border: 1px solid blue; padding: 20px;}
+.bg1 {font-style: italic}
+
+.bg2 {font-style: italic}
+
+.bg3 {font-style: italic}
+
+
+@media (max-width: 767px) {
+			.container {
+			margin: 20px;
+			background-color:tomato;
+			border: 1px solid green; 
+			padding: 20px;
+			}
+			.container {
+			width: 300px
+			}
+}
+@media (min-width: 768px) and (max-width: 991px){
+			.container { 
+			float: left;
+			margin: 20px;
+			background-color:grey;
+			border: 1px solid black; 
+			padding: 20px;
+			}
+			.container {
+			width: 90%;
+			margin: 20px;
+			}
+}
+
+@media (min-width: 992px){
+			.container { 
+			float: left;
+			margin: 20px;
+			background-color:yellow;
+			border: 1px solid green; 
+			padding: 20px;
+			}
+			.container {
+			width: 94%;
+			margin: 20px;
+			}
+}
+
