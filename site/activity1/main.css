@@ -18,39 +18,101 @@ h1 {color:red}
 
 
 @media (max-width: 767px) {
-			.container {
+			.container1 {
 			margin: 20px;
 			background-color:tomato;
 			border: 1px solid green; 
 			padding: 20px;
 			}
-			.container {
+			.container1 {
+			width: 300px
+			}
+			.container2 {
+			margin: 20px;
+			background-color:grey;
+			border: 1px solid green; 
+			padding: 20px;
+			}
+			.container2 {
+			width: 300px
+			}
+			.container3 {
+			margin: 20px;
+			background-color:yellow;
+			border: 1px solid green; 
+			padding: 20px;
+			}
+			.container3 {
 			width: 300px
 			}
 }
 @media (min-width: 768px) and (max-width: 991px){
-			.container { 
+			.container1 { 
+			float: left;
+			margin: 20px;
+			background-color:tomato;
+			border: 1px solid black; 
+			padding: 20px;
+			}
+			.container1 {
+			width: 90%;
+			margin: 20px;
+			}
+			.container2 { 
 			float: left;
 			margin: 20px;
 			background-color:grey;
 			border: 1px solid black; 
 			padding: 20px;
 			}
-			.container {
+			.container2 {
+			width: 90%;
+			margin: 20px;
+			}
+			.container3 { 
+			float: left;
+			margin: 20px;
+			background-color:yellow;
+			border: 1px solid black; 
+			padding: 20px;
+			}
+			.container3 {
 			width: 90%;
 			margin: 20px;
 			}
 }
 
 @media (min-width: 992px){
-			.container { 
+			.container1 { 
+			float: left;
+			margin: 20px;
+			background-color:tomato;
+			border: 1px solid white; 
+			padding: 20px;
+			}
+			.container1 {
+			width: 94%;
+			margin: 20px;
+			}
+			.container2 { 
+			float: left;
+			margin: 20px;
+			background-color:grey;
+			border: 1px solid white; 
+			padding: 20px;
+			}
+			.container2 {
+			width: 94%;
+			margin: 20px;
+			}
+			.container3 { 
 			float: left;
 			margin: 20px;
 			background-color:yellow;
-			border: 1px solid green; 
+			border: 1px solid white; 
 			padding: 20px;
 			}
-			.container {
+			.container3 {
 			width: 94%;
 			margin: 20px;
 			}
