@@ -1,0 +1,39 @@
+
+.main{
+			background: green;
+			background-position: 50% 50%;
+			background-size: cover;
+			height: 100%;
+			width: 100%;
+}
+
+.main h1{
+			font-size: 4rem;
+			font-weight: 700;
+}
+
+.product{
+			background: black;
+}
+
+.product1{
+			background: black;
+}
+
+.navbar-nav{
+			margin-left: auto;
+			font-size: 12px;;
+}
+
+.navbar-brand{
+			font-weight: 700;
+}
+
+.last{
+			background: green;
+}
+
+
+h1{
+			color: orange;
+}
